@@ -1,9 +1,9 @@
-#Docker-compose-cheatsheet
+# Docker-compose-cheatsheet
 
  This Repository contains some questions and their answers about docker-compose
  
  1) What is the purpose of docker-compose?
-   
+   ###
     - To automate deployment of containers 
    
  2) Write a compose file to Build and Deploy a X project in current directory?
@@ -33,12 +33,12 @@
  
  
 
-    Docker-Compose Practice
-    
-    Name: Nima Tabatabaee
-    Grops: Bladrina
-    Practice Name: Dev-008-Docker-compose
-    @dwsclass dws-dev-008-Docker-compose
+    - Docker-Compose Practice
+    -     
+    - Name: Nima Tabatabaee
+    - Grops: Bladrina
+    - Practice Name: Dev-008-Docker-compose
+    - [@dwsclass](https://github.com/dwsclass) dws-dev-008-Docker-compose
     
 
 Copyright 2022 Nima Tabatabaee nima.tabatabaee@gmail.com
