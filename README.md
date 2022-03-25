@@ -37,13 +37,11 @@
 
  
  
-     
-     ### Docker-Compose Practice
-        
-     - Name: Nima Tabatabaee
-     - Grops: Bladrina
-     - Practice Name: Dev-008-Docker-compose
-     - [@dwsclass](https://github.com/dwsclass) dws-dev-008-Docker-compose
+### Docker-Compose Practice
+  - Name: Nima Tabatabaee
+  - Grops: Bladrina
+  - Practice Name: Dev-008-Docker-compose
+  - [@dwsclass](https://github.com/dwsclass) dws-dev-008-Docker-compose
     
 
 Copyright 2022 Nima Tabatabaee nima.tabatabaee@gmail.com
