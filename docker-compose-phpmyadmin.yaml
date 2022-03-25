@@ -1,0 +1,46 @@
+version: !!str 3
+
+services:
+  PhpMyAdmin:
+    image: phpmyadmin:latest
+    restart: unless-stopped
+    env_file: .env
+    labels:
+      - app.docker.io/name=phpmyadmin
+      - app.docker.io/env=production
+      - app.docker.io/part-of=Ops-008
+      - app.docker.io/created-by=nimatbt
+    depends_on:
+      - MySQL
+    ports:
+      - 8888:80
+    networks:
+      - default
+      - database
+    
+  
+  MySQL:
+    image: mysql:8
+    restart: unless-stopped
+    env_file: .env
+    labels:
+      - app.docker.io/name=mysql
+      - app.docker.io/env=production
+      - app.docker.io/part-of=Ops-008
+      - app.docker.io/created-by=nimatbt
+    networks:
+      - database
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+
+volumes:
+  mysql_data:
+
+
+networks:
+  default:
+    external: true
+    driver: host
+  database:
+    internal: true    

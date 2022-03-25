@@ -1,0 +1,15 @@
+version: !!str 3
+
+services:
+  PhpMyAdmin:
+    image: phpmyadmin:latest
+    networks:
+      - default
+    ports:
+      - 8888:80
+
+
+networks:
+  default:
+    external: true
+    name: existing-networks
