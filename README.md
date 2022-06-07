@@ -9,8 +9,8 @@
   
  2) Write a compose file to Build and Deploy a X project in current directory?
  
-     ` Please see the docker-compose-X.yaml file `
-    > docker-compose -f docker-compose-X.yaml up -d
+    > Please see the docker-compose-X.yaml file 
+    ' docker-compose -f docker-compose-X.yaml up -d '
    
    
  3) Write a compose file to deploy MySQL and PhpMyAdmin application?
